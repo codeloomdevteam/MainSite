@@ -1,9 +1,6 @@
-import React from "react";
 import { Link } from "react-router";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div>
       <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">

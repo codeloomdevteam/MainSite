@@ -1,12 +1,9 @@
-import React from "react";
 import NavBar from "./NavBar";
 import { Outlet } from "react-router";
 import Footer from "./Footer/Footer";
 import ScrollToTop from "./ScrollToTop";
 
-type Props = {};
-
-const MainLayout = (props: Props) => {
+const MainLayout = () => {
   return (
     <>
       <ScrollToTop />

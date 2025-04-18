@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const VisionMission = (props: Props) => {
+const VisionMission = () => {
   return (
     <div className="mt-20">
       <div className="flex w-full flex-col lg:flex-row mt-20">

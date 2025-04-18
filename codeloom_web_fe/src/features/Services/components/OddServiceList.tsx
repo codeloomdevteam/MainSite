@@ -1,12 +1,12 @@
-import React from "react";
 import { Link } from "react-router";
 
-type Props = {
-  service: any;
-  index: number;
-};
+import { ServiceItem } from "../../Common/serviceTypes";
 
-const OddServiceList = ({ service, index }: Props) => {
+interface OddServiceListProps {
+  service: ServiceItem;
+}
+
+const OddServiceList: React.FC<OddServiceListProps> = ({ service }) => {
   return (
     <div className="h-1/2">
       <div className="flex flex-col lg:flex-row w-full h-full rounded-xl overflow-hidden">

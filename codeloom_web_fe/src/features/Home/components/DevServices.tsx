@@ -1,10 +1,7 @@
-import React from "react";
 import DevServiceData from "../../Common/DevServiceData.json";
 import { Link } from "react-router";
 
-type Props = {};
-
-const DevServices = (props: Props) => {
+const DevServices = () => {
   return (
     <div className="min-h-screen py-10 bg-base-100">
       <div className="container mx-auto px-4">

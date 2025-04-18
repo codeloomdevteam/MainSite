@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Team = (props: Props) => {
+const Team = () => {
   return (
     <section className="px-4 ">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start container mx-auto">

@@ -1,9 +1,7 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useLocation } from "react-router";
 
-type Props = {};
-
-const ScrollToTop = (props: Props) => {
+const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {

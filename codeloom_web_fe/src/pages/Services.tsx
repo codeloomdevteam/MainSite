@@ -1,9 +1,6 @@
-import React from "react";
 import { ServicesList, Title } from "../features/Services";
 
-type Props = {};
-
-const Service = (props: Props) => {
+const Service = () => {
   return (
     <div>
       <Title />
