@@ -2,8 +2,8 @@ import { CgMail } from "react-icons/cg";
 import { FaWhatsapp } from "react-icons/fa";
 
 const ContactLink = () => {
-  const email = "seneshnagodavithana@gmail.com";
-  const phone = "+94716402929";
+  const email = "codeloom.lk@gmail.com";
+  const phone = "+94760932536";
   const whatsappUrl = `https://wa.me/${phone.replace(/\D/g, "")}`;
   const mailToUrl = `mailto:${email}`;
 
