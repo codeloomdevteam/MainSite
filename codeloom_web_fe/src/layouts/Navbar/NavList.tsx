@@ -21,7 +21,7 @@ const NavList = () => {
           Services
         </NavLink>
       </li>
-      <li className="px-4">
+      {/* <li className="px-4">
         <NavLink
           to="/products"
           end
@@ -29,7 +29,7 @@ const NavList = () => {
         >
           Products
         </NavLink>
-      </li>
+      </li> */}
       <li className="px-4">
         <NavLink
           to="/about"
