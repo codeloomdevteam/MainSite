@@ -1,9 +1,6 @@
-import React from "react";
 import hero_image from "../../../assets/hero_image.png";
 
-type Props = {};
-
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <div>
       <div className="lg:min-h-screen block">

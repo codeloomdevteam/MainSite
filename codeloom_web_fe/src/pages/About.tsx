@@ -1,9 +1,6 @@
-import React from "react";
 import { Team, Title, VisionMission } from "../features/About";
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <div>
       <Title />

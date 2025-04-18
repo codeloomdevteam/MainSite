@@ -1,9 +1,6 @@
-import React from "react";
 import { ContactLink, Title } from "../features/ContactUs";
 
-type Props = {};
-
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <div>
       <Title />

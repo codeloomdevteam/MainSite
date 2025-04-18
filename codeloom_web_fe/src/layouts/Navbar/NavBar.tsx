@@ -1,11 +1,8 @@
-import React from "react";
 import NavTheme from "./NavTheme";
 import NavList from "./NavList";
 import { Link, useNavigate } from "react-router";
 
-type Props = {};
-
-const NavBar = (props: Props) => {
+const NavBar = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {

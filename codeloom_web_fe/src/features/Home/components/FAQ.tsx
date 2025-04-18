@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const FAQ = (props: Props) => {
+const FAQ = () => {
   return (
     <div className="mt-20">
       <div className="container mx-auto px-4">

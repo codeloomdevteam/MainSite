@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
-type Props = {};
-
-const NavTheme = (props: Props) => {
+const NavTheme = () => {
   const storeTheme = localStorage.getItem("theme");
   const [theme, setTheme] = useState<string | any>(storeTheme); // default is light
 

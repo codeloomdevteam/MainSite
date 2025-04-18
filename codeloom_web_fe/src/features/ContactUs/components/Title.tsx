@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Title = (props: Props) => {
+const Title = () => {
   return (
     <div>
       <div className="hero">

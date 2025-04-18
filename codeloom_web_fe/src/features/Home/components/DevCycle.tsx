@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const DevCycle = (props: Props) => {
+const DevCycle = () => {
   return (
     <div className="my-15">
       <div className="container mx-auto px-4">

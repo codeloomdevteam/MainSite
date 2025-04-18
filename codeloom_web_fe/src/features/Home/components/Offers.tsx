@@ -1,9 +1,6 @@
-import React from "react";
 import { Link } from "react-router";
 
-type Props = {};
-
-const Offers = (props: Props) => {
+const Offers = () => {
   return (
     <div className="mt-20" id="offer">
       <div className="container mx-auto px-4">
