@@ -1,1 +1,22 @@
 
+version: 0.2
+env:
+  variables:
+    BUCKET_NAME: codeloom-official-webpage-s3-bucket-us-east-1-672969153958
+    DISTRIBUSTION_ID: E37CHQJL80Y11L
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo clone git repository based on tag
+      - cd codeloom_web_fe
+      - npm install
+  build:
+    commands:
+      - echo Entered the build phase...
+      - npm run build
+  post_build:
+    commands:
+      - aws s3 cp build s3://${BUCKET_NAME}/ --cache-control max-age=604800 --recursive
+      - aws cloudfront create-invalidation --distribution-id ${DISTRIBUSTION_ID} --paths "/*" --query Invalidation.Status
