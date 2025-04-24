@@ -9,7 +9,7 @@ const FAQ = () => {
           </h1>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 space-y-2">
         <div className="collapse collapse-arrow bg-base-100 border border-base-300">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title card-title text-lg md:text-xl">

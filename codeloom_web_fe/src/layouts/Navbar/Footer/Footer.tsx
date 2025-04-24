@@ -6,7 +6,11 @@ const Footer = () => {
       <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
         <Link to="/">
           <aside>
-            <img alt="CODELOOM" src="/codeloom_full_logo.svg" />
+            <img
+              alt="CODELOOM"
+              src="/codeloom_full_logo.png"
+              className="md:w-60 w-40 mb-2"
+            />
             <p className="card-title text-lg md:text-xl">CODE LOOM</p>
             <p>Your Vision, Our Framework</p>
             <p>&copy; 2025 Code Loom. All rights reserved.</p>

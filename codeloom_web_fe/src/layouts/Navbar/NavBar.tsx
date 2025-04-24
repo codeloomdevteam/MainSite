@@ -25,12 +25,12 @@ const NavBar = () => {
       <div className="navbar-start">
         <div className="w-16 pr-4 lg:hidden">
           <Link to="/">
-            <img alt="CODELOOM" src="/codeloom_icon.svg" />
+            <img alt="CODELOOM" src="/codeloom_icon.png" />
           </Link>
         </div>
         <div className="w-40 pr-4 hidden lg:block">
           <Link to="/">
-            <img alt="CODELOOM" src="/codeloom_full_logo.svg" />
+            <img alt="CODELOOM" src="/codeloom_full_logo.png" />
           </Link>
         </div>
 

@@ -17,7 +17,7 @@ const Title = () => {
       </div>
       <div className="hero mt-10 mb-20">
         <div className="md:w-1/3 w-2/3 pr-4">
-          <img alt="CODELOOM" src="/codeloom_full_logo.svg" />
+          <img alt="CODELOOM" src="/codeloom_full_logo.png" />
         </div>
       </div>
     </div>
