@@ -18,5 +18,5 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 cp build s3://${BUCKET_NAME}/ --cache-control max-age=604800 --recursive
+      - aws s3 cp dist s3://${BUCKET_NAME}/ --cache-control max-age=604800 --recursive
       - aws cloudfront create-invalidation --distribution-id ${DISTRIBUSTION_ID} --paths "/*" --query Invalidation.Status
