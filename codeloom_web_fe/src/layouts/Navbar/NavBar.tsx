@@ -2,7 +2,6 @@ import NavTheme from "./NavTheme";
 import NavList from "./NavList";
 import { Link, useNavigate } from "react-router";
 import { useEffect, useState } from "react";
-import { IoLanguage } from "react-icons/io5";
 
 declare global {
   interface Window {
