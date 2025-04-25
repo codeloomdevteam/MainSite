@@ -36,7 +36,7 @@ const NavList = () => {
           end
           className={({ isActive }) => (isActive ? "font-semibold" : "")}
         >
-          About
+          About Us
         </NavLink>
       </li>
       <li className="px-4">
