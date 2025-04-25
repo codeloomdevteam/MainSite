@@ -143,9 +143,6 @@ const NavBar = () => {
           className="select w-fit mx-2"
           onChange={handleLanguageChange}
         >
-          {/* <option disabled value="Language">
-            Language
-          </option> */}
           <option value="en" lang="en">
             English
           </option>
