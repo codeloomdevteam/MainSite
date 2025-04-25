@@ -2,6 +2,7 @@ import NavTheme from "./NavTheme";
 import NavList from "./NavList";
 import { Link, useNavigate } from "react-router";
 import { useEffect, useState } from "react";
+import { BiSolidPhoneCall } from "react-icons/bi";
 
 declare global {
   interface Window {
@@ -136,7 +137,10 @@ const NavBar = () => {
           <NavTheme />
         </div>
         <a className="btn bg-orange-400 text-white">
-          <Link to="/contact">Talk with Us</Link>
+          <BiSolidPhoneCall className="text-2xl" />
+          <Link to="/contact" className="hidden md:block">
+            Talk with Us
+          </Link>
         </a>
         <select
           value={dropdownValue}
