@@ -146,13 +146,13 @@ const NavBar = () => {
           {/* <option disabled value="Language">
             Language
           </option> */}
-          <option value="en" lang="en" data-i18n="false">
+          <option value="en" lang="en">
             English
           </option>
-          <option value="si" lang="si" data-i18n="false">
+          <option value="si" lang="si">
             සිංහල
           </option>
-          <option value="ta" lang="ta" data-i18n="false">
+          <option value="ta" lang="ta">
             தமிழ்
           </option>
         </select>
