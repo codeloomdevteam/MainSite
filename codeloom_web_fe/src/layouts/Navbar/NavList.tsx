@@ -14,6 +14,15 @@ const NavList = () => {
       </li>
       <li className="px-4">
         <NavLink
+          to="/products"
+          end
+          className={({ isActive }) => (isActive ? "font-semibold" : "")}
+        >
+          Products
+        </NavLink>
+      </li>
+      <li className="px-4">
+        <NavLink
           to="/services"
           end
           className={({ isActive }) => (isActive ? "font-semibold" : "")}
@@ -21,15 +30,6 @@ const NavList = () => {
           Services
         </NavLink>
       </li>
-      {/* <li className="px-4">
-        <NavLink
-          to="/products"
-          end
-          className={({ isActive }) => (isActive ? "font-semibold" : "")}
-        >
-          Products
-        </NavLink>
-      </li> */}
       <li className="px-4">
         <NavLink
           to="/about"

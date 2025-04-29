@@ -1,5 +1,11 @@
+import { Title } from "../features/Product";
+
 const Products = () => {
-  return <div>Products</div>;
+  return (
+    <div>
+      <Title />
+    </div>
+  );
 };
 
 export default Products;

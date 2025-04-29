@@ -35,7 +35,7 @@ const NavBar = () => {
 
     const interval = setInterval(resetLanguageOptions, 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [dropdownValue]);
 
   useEffect(() => {
     // Add CSS to hide Google Translate elements
