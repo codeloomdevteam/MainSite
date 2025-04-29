@@ -137,9 +137,9 @@ const NavBar = () => {
           <NavTheme />
         </div>
         <a className="btn bg-orange-400 text-white">
-          <BiSolidPhoneCall className="text-2xl" />
-          <Link to="/contact" className="hidden md:block">
-            Talk with Us
+          <Link to="/contact" className="flex">
+            <BiSolidPhoneCall className="text-2xl mr-2" />
+            <span className="hidden lg:block">Talk with Us</span>
           </Link>
         </a>
         <select

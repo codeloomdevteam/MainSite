@@ -3,105 +3,105 @@
     {
       "title": "Web Application Development",
       "description": "Custom web apps for businesses and enterprises",
-      "description_long": "We build responsive, high-performance web applications tailored to your unique business needs. Using modern frameworks like React.js and robust backend technologies, we create scalable solutions that deliver seamless user experiences across all devices. From e-commerce platforms to enterprise SaaS products, our web applications are engineered for security, speed, and growth.",
+      "description_long": "We build responsive, high-performance web applications tailored to your unique business needs. Our solutions deliver seamless user experiences across all devices, from e-commerce platforms to enterprise products, engineered for security, speed, and growth.",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "features": [
-        "React.js frontends",
-        "Node.js/Python/.NET backends",
-        "API integrations",
-        "Cloud deployment",
-        "Security compliance"
+        "Custom frontend interfaces",
+        "Scalable backend systems",
+        "Third-party service connections",
+        "Cloud hosting solutions",
+        "Data protection measures"
       ]
     },
     {
       "title": "Software Product Development",
       "description": "End-to-end solutions from idea to product",
-      "description_long": "Turn your vision into a market-ready product with our comprehensive development process. We specialize in taking concepts from initial ideation through MVP development to full-scale deployment. Our agile approach ensures frequent iterations, stakeholder alignment, and a product that truly solves your target audience's pain points while being technically robust and scalable.",
+      "description_long": "Turn your vision into a market-ready product with our comprehensive development process. We specialize in taking concepts from initial ideation through prototype development to full-scale deployment, ensuring solutions that truly solve your target audience's needs.",
       "image": "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "features": [
-        "MVP development",
-        "Cross-platform support",
-        "Agile methodology",
-        "Performance optimization",
-        "Post-launch analytics"
+        "Minimum viable product creation",
+        "Multiple platform compatibility",
+        "Flexible development approach",
+        "Speed and efficiency enhancements",
+        "Usage tracking and reporting"
       ]
     },
     {
       "title": "Mobile Application Development",
       "description": "iOS & Android apps with native/hybrid approaches",
-      "description_long": "In today's mobile-first world, we craft applications that users love and engage with daily. Whether you need native performance with Swift/Kotlin or cross-platform efficiency with Flutter, we deliver polished mobile experiences. Our apps are optimized for all device sizes, offline functionality, and seamless backend integration, following platform-specific design guidelines for intuitive usability.",
+      "description_long": "We craft applications that users love and engage with daily. Our apps are optimized for all device sizes, with offline capabilities and seamless backend integration, following platform-specific design guidelines for intuitive usability.",
       "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "features": [
-        "Swift/Kotlin native apps",
-        "Flutter/React Native hybrid",
-        "Mobile UX optimization",
-        "Offline functionality",
-        "App store deployment"
+        "Platform-specific app development",
+        "Cross-platform solutions",
+        "Mobile user experience refinement",
+        "Offline operation capabilities",
+        "Store submission assistance"
       ]
     },
     {
       "title": "Testing & Quality Assurance",
       "description": "Comprehensive quality assurance services",
-      "description_long": "Quality is never an accident. Our rigorous QA process ensures your software performs flawlessly under all conditions. We combine automated testing frameworks with manual exploratory testing to identify issues early, while performance and security testing guarantee your application can handle real-world demands. Our detailed reports provide actionable insights for continuous improvement.",
+      "description_long": "Our rigorous process ensures your software performs flawlessly under all conditions. We combine automated checks with manual testing to identify issues early, while performance and security verification guarantee your application can handle real-world demands.",
       "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "features": [
-        "Automated testing",
-        "Performance testing",
-        "Security audits",
-        "Device compatibility",
-        "CI/CD integration"
+        "Automated test scripts",
+        "System speed evaluation",
+        "Vulnerability assessments",
+        "Multi-device verification",
+        "Development pipeline integration"
       ]
     },
     {
       "title": "Maintenance & Support",
       "description": "Ongoing software care and updates",
-      "description_long": "Launching your product is just the beginning. Our maintenance services ensure your software remains secure, up-to-date, and optimized as your business evolves. From critical security patches to performance tuning and feature enhancements, we provide reliable support tailored to your needs. Choose from flexible plans including 24/7 monitoring, emergency response, and scheduled health checks.",
+      "description_long": "Our services ensure your software remains secure, current, and optimized as your business evolves. From critical updates to performance improvements and feature expansions, we provide reliable support tailored to your needs.",
       "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "features": [
-        "24/7 monitoring",
-        "Security patches",
-        "Performance tuning",
-        "Dedicated support",
-        "Documentation"
+        "Continuous system monitoring",
+        "Critical updates application",
+        "Speed and efficiency improvements",
+        "Priority assistance channels",
+        "System documentation updates"
       ]
     },
     {
       "title": "UX Engineering",
       "description": "Human-centered digital experiences",
-      "description_long": "Great UX is where technology meets empathy. We design interfaces that don't just work, but delight. Through user research, iterative prototyping, and accessibility-focused development, we create intuitive experiences that drive engagement and conversion. Our design systems ensure visual consistency across your product while optimizing for performance across all devices and user scenarios.",
+      "description_long": "We design interfaces that don't just work, but delight. Through user research, iterative prototyping, and accessibility-focused development, we create intuitive experiences that drive engagement and conversion across all devices and user scenarios.",
       "image": "https://plus.unsplash.com/premium_photo-1661412938808-a0f7be3c8cf1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXglMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
       "features": [
-        "User research & testing",
-        "Interaction design",
-        "Accessibility compliance",
-        "Design systems",
-        "Performance optimization"
+        "User behavior analysis",
+        "Interactive element design",
+        "Universal access compliance",
+        "Visual consistency systems",
+        "Loading speed optimization"
       ]
     },
     {
       "title": "IoT Development",
       "description": "Connected solutions for smart environments",
-      "description_long": "Bridge the physical and digital worlds with our IoT expertise. We develop complete ecosystems - from edge devices and sensors to cloud platforms and dashboards - that collect, analyze, and act on data in real time. Whether for industrial automation, smart buildings, or consumer products, our solutions prioritize reliability, security, and actionable insights from your connected devices.",
+      "description_long": "Bridge the physical and digital worlds with our expertise. We develop complete ecosystems that collect, analyze, and act on data in real time, prioritizing reliability, security, and actionable insights from your connected devices.",
       "image": "https://images.unsplash.com/photo-1713857297379-6fc26e70f581?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW50ZXJuZXQlMjBvZiUyMHRoaW5nc3xlbnwwfHwwfHx8MA%3D%3D",
       "features": [
-        "Edge computing solutions",
-        "Sensor integration",
-        "Real-time dashboards",
-        "Fleet management",
-        "Predictive analytics"
+        "Local data processing",
+        "Device connectivity solutions",
+        "Live monitoring interfaces",
+        "Device network management",
+        "Data pattern forecasting"
       ]
     },
     {
       "title": "Technical Consulting",
       "description": "Strategic guidance for technology initiatives",
-      "description_long": "Navigate complex technology decisions with confidence. Our consulting services provide the expertise you need to evaluate architectures, select optimal tech stacks, and plan scalable growth. Whether you need a one-time assessment or ongoing CTO-level guidance, we help align your technology with business goals while avoiding costly missteps. Ideal for startups building their first product or enterprises modernizing legacy systems.",
+      "description_long": "Navigate complex technology decisions with confidence. Our services provide the expertise you need to evaluate system structures, select optimal solutions, and plan scalable growth while aligning with business goals.",
       "image": "https://t4.ftcdn.net/jpg/08/07/84/11/360_F_807841117_K9AG5xNUEK2PJKNcc65BRmi3Qu5COh20.jpg",
       "features": [
-        "Architecture reviews",
-        "Technology audits",
-        "Roadmap planning",
-        "Team augmentation",
-        "CTO-as-a-service"
+        "System structure evaluation",
+        "Technology stack analysis",
+        "Growth planning",
+        "Expert team supplementation",
+        "Leadership-level guidance"
       ]
     }
   ]
