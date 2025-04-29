@@ -1,8 +1,10 @@
 import event_web_cover_img from "../../../assets/img/event_web_cover_img.png";
 
+import { FaStreetView } from "react-icons/fa";
+
 const PartyCrafter = () => {
   return (
-    <div className="mt-10 ">
+    <div className="mt-15 ">
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
@@ -24,7 +26,7 @@ const PartyCrafter = () => {
 
         <div className="card rounded-box grid grow place-items-start">
           <div className="">
-            <p>
+            <p className="lg:pt-5">
               <span className="font-bold text-indigo-600">
                 PARTY CRAFTERS is
               </span>
@@ -52,6 +54,36 @@ const PartyCrafter = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="container mx-auto px-4 mt-10">
+        <div className="text-center">
+          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold">
+            <span className="font-light">Key Features & </span>
+            <span className="">Functionalities</span>
+          </h1>
+        </div>
+      </div>
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-4 mt-10">
+        <div className="">
+          <div className="flex gap-5 mb-5">
+            <div>
+              <FaStreetView className="text-4xl" />
+            </div>
+            <div>
+              <div>Dio Lupa</div>
+              <div className="text-xs uppercase font-semibold opacity-60">
+                Remaining Reason
+              </div>
+            </div>
+          </div>
+          <p className="list-col-wrap text-xs">
+            "Remaining Reason" became an instant hit, praised for its haunting
+            sound and emotional depth. A viral performance brought it widespread
+            recognition, making it one of Dio Lupa’s most iconic tracks.
+          </p>
+        </div>
+
+        <div>09</div>
       </div>
     </div>
   );
