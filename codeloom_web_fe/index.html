@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
 
     <!-- Primary Meta Tags -->
     <title>
-      CODE LOOM | Custom Web & Software Development Solutions in Sri Lanka
+      CODE LOOM | Enterprise Software Development & Custom Solutions
     </title>
     <meta
       name="description"
-      content="Sri Lankan software company specializing in modern web systems, mobile apps, and custom software. Get student project discounts and enterprise solutions."
+      content="Sri Lanka's premier enterprise software development company. We deliver scalable web applications, mobile solutions, and custom software for businesses."
     />
     <meta
       name="keywords"
-      content="web development Sri Lanka, software company, mobile app development, student project help, custom web solutions"
+      content="enterprise software development, custom web applications, business solutions Sri Lanka, mobile app development, software consulting"
     />
 
     <!-- Open Graph / Facebook -->
@@ -22,43 +23,62 @@
     <meta property="og:url" content="https://codeloom.site/" />
     <meta
       property="og:title"
-      content="CODE LOOM | Your Vision, Our Framework"
+      content="CODE LOOM | Enterprise-Grade Software Solutions"
     />
     <meta
       property="og:description"
-      content="Sri Lanka's premier web development partner. Custom solutions for businesses and academic projects with student discounts."
+      content="Sri Lanka's trusted partner for scalable business software. Custom development, IoT solutions, and technical consulting for enterprises."
     />
     <meta
       property="og:image"
-      content="https://codeloom.site/codeloom_full_logo.png"
+      content="https://codeloom.site/images/codeloom-social-preview.jpg"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="CODE LOOM Logo" />
+    <meta
+      property="og:image:alt"
+      content="CODE LOOM - Enterprise Software Development"
+    />
+    <meta property="og:site_name" content="CODE LOOM" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@codeloom" />
+    <meta name="twitter:site" content="@codeloomsl" />
+    <meta name="twitter:creator" content="@codeloomsl" />
     <meta
       name="twitter:title"
-      content="CODE LOOM | Custom Web Solutions in Sri Lanka"
+      content="CODE LOOM | Custom Enterprise Software Solutions"
     />
     <meta
       name="twitter:description"
-      content="Build modern web systems with Sri Lanka's trusted development partner. Special offers for student projects."
+      content="Build scalable business applications with Sri Lanka's trusted development partner. Web, mobile, and IoT solutions for enterprises."
     />
     <meta
       name="twitter:image"
-      content="https://codeloom.site/codeloom_full_logo.png"
+      content="https://codeloom.site/images/codeloom-twitter-preview.jpg"
     />
-    <meta name="twitter:image:alt" content="CODE LOOM Logo" />
+    <meta
+      name="twitter:image:alt"
+      content="CODE LOOM Software Development Services"
+    />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/codeloom_icon.png" />
-    <link rel="apple-touch-icon" href="/codeloom_icon.png" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://codeloom.site/" />
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/src/main.tsx" as="script" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1a365d" />
+
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
   </head>
   <body>
     <div id="root"></div>
@@ -68,22 +88,74 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "ProfessionalService",
         "name": "CODE LOOM",
         "url": "https://codeloom.site",
-        "logo": "https://codeloom.site/codeloom_full_logo.png",
-        "description": "Custom web and software development solutions in Sri Lanka",
-        "telephone": "+94760932536",
+        "logo": "https://codeloom.site/images/logo.png",
+        "description": "Enterprise software development and custom business solutions provider in Sri Lanka",
+        "foundingDate": "2025",
+        "founders": [
+          {
+            "@type": "Person",
+            "name": "CodeLoom"
+          }
+        ],
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "Sri Lanka"
         },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+94760932536",
+          "contactType": "sales",
+          "email": "codeloom.lk@gmail.com",
+          "areaServed": "Sri Lanka",
+          "availableLanguage": ["English", "Sinhala"]
+        },
         "sameAs": [
-          "https://facebook.com/codeloom",
-          "https://linkedin.com/company/codeloom",
-          "https://twitter.com/codeloom"
-        ]
+          "https://www.facebook.com/profile.php?id=100051284685183",
+          "https://codeloom.site/"
+        ],
+        "priceRange": "$$$",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Software Development Services",
+          "itemListElement": [
+            {
+              "@type": "OfferCatalog",
+              "name": "Web Application Development",
+              "itemListElement": {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Custom Web Applications"
+                }
+              }
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Mobile Application Development",
+              "itemListElement": {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "iOS & Android Apps"
+                }
+              }
+            }
+          ]
+        }
       }
+    </script>
+
+    <!-- Copyright Notice -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const yearSpan = document.getElementById("current-year");
+        if (yearSpan) {
+          yearSpan.textContent = new Date().getFullYear();
+        }
+      });
     </script>
   </body>
 </html>

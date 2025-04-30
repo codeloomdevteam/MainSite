@@ -40,7 +40,7 @@ const PartyCrafter = () => {
         </div>
       </div>
       <div className="flex w-full flex-col lg:flex-row mt-5 gap-10">
-        <div className="card rounded-box grid grow place-items-center">
+        <div className="card rounded-box grid grow place-items-center md:w-2/5">
           <div className="">
             <img
               src={event_web_cover_img}
@@ -50,7 +50,7 @@ const PartyCrafter = () => {
           </div>
         </div>
 
-        <div className="card rounded-box grid grow place-items-start">
+        <div className="card rounded-box grid grow place-items-start md:w-3/5">
           <div className="">
             <p className="lg:pt-5">
               <span className="font-bold text-indigo-600">Event Loom is</span>

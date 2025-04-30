@@ -191,7 +191,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="fixed bottom-4 right-4 z-50">
+      {/* <div className="fixed bottom-4 right-4 z-50">
         <button
           type="button"
           onClick={handleClick}
@@ -203,7 +203,7 @@ const NavBar = () => {
             <span className="relative inline-flex h-4 w-4 rounded-full bg-red-500"></span>
           </span>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
