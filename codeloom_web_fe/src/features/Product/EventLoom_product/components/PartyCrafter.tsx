@@ -1,6 +1,5 @@
 import event_web_cover_img from "../../../../assets/img/event_web_cover_img.png";
 import {
-  FaStreetView,
   FaUsers,
   FaBoxOpen,
   FaMoneyBillWave,

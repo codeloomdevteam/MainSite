@@ -1,6 +1,6 @@
 import NavTheme from "./NavTheme";
 import NavList from "./NavList";
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 import { useEffect, useState } from "react";
 import { BiSolidPhoneCall } from "react-icons/bi";
 
@@ -20,7 +20,6 @@ declare global {
 }
 
 const NavBar = () => {
-  const navigate = useNavigate();
   const [dropdownValue, setDropdownValue] = useState<string>("Language");
 
   useEffect(() => {
@@ -96,18 +95,18 @@ const NavBar = () => {
     setTimeout(() => window.location.reload(), 300);
   };
 
-  const handleClick = () => {
-    if (window.location.pathname === "/") {
-      const el = document.getElementById("offer");
-      if (el) el.scrollIntoView({ behavior: "smooth" });
-    } else {
-      navigate("/");
-      setTimeout(() => {
-        const el = document.getElementById("offer");
-        if (el) el.scrollIntoView({ behavior: "smooth" });
-      }, 300);
-    }
-  };
+  // const handleClick = () => {
+  //   if (window.location.pathname === "/") {
+  //     const el = document.getElementById("offer");
+  //     if (el) el.scrollIntoView({ behavior: "smooth" });
+  //   } else {
+  //     navigate("/");
+  //     setTimeout(() => {
+  //       const el = document.getElementById("offer");
+  //       if (el) el.scrollIntoView({ behavior: "smooth" });
+  //     }, 300);
+  //   }
+  // };
 
   return (
     <div className="navbar fixed top-0 right-0 left-0 bg-base-100 z-40 md:px-10">

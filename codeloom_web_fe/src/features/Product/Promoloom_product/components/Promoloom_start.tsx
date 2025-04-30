@@ -1,10 +1,8 @@
 import promo_loon_cover from "../../../../assets/img/promo_loon_cover.png";
 import {
-  FaStreetView,
   FaUsers,
   FaBoxOpen,
   FaMoneyBillWave,
-  FaTruck,
   FaBell,
   FaUserCog,
   FaChartBar,

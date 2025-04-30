@@ -1,6 +1,5 @@
 import CaptureLoom_cover_img from "../../../../assets/img/CaptureLoom_cover_img.jpg";
 import {
-  FaStreetView,
   FaUsers,
   FaBoxOpen,
   FaMoneyBillWave,
