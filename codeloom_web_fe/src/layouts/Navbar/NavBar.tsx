@@ -23,20 +23,6 @@ const NavBar = () => {
   const [dropdownValue, setDropdownValue] = useState<string>("Language");
 
   useEffect(() => {
-    const resetLanguageOptions = () => {
-      const options = document.querySelectorAll("select option");
-      if (options.length >= 3) {
-        options[0].textContent = "English";
-        options[1].textContent = "සිංහල";
-        options[2].textContent = "தமிழ்";
-      }
-    };
-
-    const interval = setInterval(resetLanguageOptions, 1000);
-    return () => clearInterval(interval);
-  }, [dropdownValue]);
-
-  useEffect(() => {
     // Add CSS to hide Google Translate elements
     const style = document.createElement("style");
     style.innerHTML = `
@@ -138,7 +124,7 @@ const NavBar = () => {
         <a className="btn bg-orange-400 text-white">
           <Link to="/contact" className="flex">
             <BiSolidPhoneCall className="text-2xl mr-2" />
-            <span className="hidden lg:block">Talk with Us</span>
+            <span className="hidden lg:block">Call</span>
           </Link>
         </a>
         <select
