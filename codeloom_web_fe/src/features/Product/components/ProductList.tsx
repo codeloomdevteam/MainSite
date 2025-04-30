@@ -1,4 +1,4 @@
-import event_logo from "../../../assets/img/event_logo.png";
+import event_logo from "../../../assets/img/Eventify.png";
 import photo_logo from "../../../assets/img/photo_logo.png";
 
 const ProductList = () => {
@@ -11,11 +11,11 @@ const ProductList = () => {
               <img
                 src={event_logo}
                 alt="Shoes"
-                className="rounded-xl md:w-60 w-36"
+                className="rounded-xl md:w-72 w-36"
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title text-lg md:text-xl">PARTY CRAFTERS</h2>
+              <h2 className="card-title text-lg md:text-xl">Eventify</h2>
               <p>
                 Your one-stop solution for managing events, inventory, and more.
                 Our platform is designed to help you streamline your operations
