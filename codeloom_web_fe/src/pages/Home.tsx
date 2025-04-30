@@ -1,10 +1,4 @@
-import {
-  HeroSection,
-  DevServices,
-  DevCycle,
-  Offers,
-  FAQ,
-} from "../features/Home";
+import { HeroSection, DevServices, DevCycle, FAQ } from "../features/Home";
 
 const Home = () => {
   return (

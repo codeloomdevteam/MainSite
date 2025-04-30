@@ -1,0 +1,36 @@
+{
+  "key_features": [
+    {
+      "title": "Role-Based Workflow Control",
+      "description": "Predefined roles (Admin, Photographer, Assistant) with tiered permissions for teams or solo pros."
+    },
+    {
+      "title": "Smart Package Builder",
+      "description": "Create customizable packages (Gold/Silver/Bronze) with add-ons, galleries, and dynamic pricing."
+    },
+    {
+      "title": "Team-Centric Job Assignments",
+      "description": "Assign shoots to teams or individuals with equipment requirements and deadlines."
+    },
+    {
+      "title": "Equipment Tracking System",
+      "description": "Track gear usage, assign tools to teams, and receive low-inventory alerts."
+    },
+    {
+      "title": "Unified Booking Hub",
+      "description": "Client-facing calendar for appointments, with automated reminders and payment follow-ups."
+    },
+    {
+      "title": "Photo Delivery & Reviews",
+      "description": "Securely share files with clients and collect public/private feedback."
+    },
+    {
+      "title": "Revenue Analytics",
+      "description": "Track earnings by session type, photographer, or time period with visual dashboards."
+    },
+    {
+      "title": "Integrated Messaging",
+      "description": "In-app communication for teams and clients, with task reminders and shoot updates."
+    }
+  ]
+}
